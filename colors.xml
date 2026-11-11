@@ -1,0 +1,10 @@
+<resources>
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#F57C00</color>
+    <color name="colorAccent">#FF9800</color>
+
+    <color name="fitlifeBackground">#121212</color>
+    <color name="fitlifeCard">#1F1F1F</color>
+    <color name="fitlifeTextPrimary">#FFFFFF</color>
+    <color name="fitlifeTextSecondary">#B0B0B0</color>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fitlifeBackground"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvCreateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create workout"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etWorkoutName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Workout name"
+            android:textColor="@color/fitlifeTextPrimary"
+            android:textColorHint="@color/fitlifeTextSecondary" />
+
+        <EditText
+            android:id="@+id/etEquipment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Required equipment"
+            android:textColor="@color/fitlifeTextPrimary"
+            android:textColorHint="@color/fitlifeTextSecondary" />
+
+        <EditText
+            android:id="@+id/etSets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of sets"
+            android:inputType="number"
+            android:textColor="@color/fitlifeTextPrimary"
+            android:textColorHint="@color/fitlifeTextSecondary" />
+
+        <EditText
+            android:id="@+id/etReps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of reps"
+            android:inputType="number"
+            android:textColor="@color/fitlifeTextPrimary"
+            android:textColorHint="@color/fitlifeTextSecondary" />
+
+        <EditText
+            android:id="@+id/etInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Instructions"
+            android:gravity="top|start"
+            android:inputType="textMultiLine"
+            android:textColor="@color/fitlifeTextPrimary"
+            android:textColorHint="@color/fitlifeTextSecondary" />
+
+        <Button
+            android:id="@+id/btnPickImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add image (optional)"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvImageInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No image selected"
+            android:textColor="@color/fitlifeTextSecondary" />
+
+        <Button
+            android:id="@+id/btnUseCurrentLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Geotag with my current location"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/tvLocationInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location not set"
+            android:textColor="@color/fitlifeTextSecondary" />
+
+        <Button
+            android:id="@+id/btnSaveWorkout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save workout"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
